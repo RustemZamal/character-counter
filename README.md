@@ -43,7 +43,7 @@
  ### Первый вариант
  1. Клонировать репозитории `git clone https://github.com/RustemZamal/character-counter.git`.
  Или можно просто скачать репозиторий
- 2. Перейти в директорию файла `cd character-counter`, если репозитории скачан `cd character-counter-main`
+ 2. Перейти в директорию файла `cd character-counter`, если репозиторий скачан `cd character-counter-main`
  3. Собрать проект с помощью Maven `./mvnw clean install`
  4. Запустить приложение `./mvnw spring-boot:run`
 
