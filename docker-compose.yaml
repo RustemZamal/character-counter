@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  character-counter:
+    build: .
+    image: character-counter
+    container_name: character-counter-server
+    ports:
+      - "8080:8080"
+      - "5005:5005"
+    environment:
+      - JAVA_TOOL_OPTIONS=-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005
+
